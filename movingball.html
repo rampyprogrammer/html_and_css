@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moving Ball</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 500px;
+            background-color: pink;
+            margin: 100px auto;
+            border: black 2px solid;
+        }
+        .ball{
+            position: relative;
+            width: 80px;
+            height: 80px;
+            
+            border-radius: 50%;
+            border: 2px red solid;
+            background-color: black;
+            animation: moving 6s  infinite;
+            
+        }
+        @keyframes moving {
+            0%{
+                top: 0;
+                left: 0;
+                background-image: radial-gradient(green,pink);
+                
+                
+            }
+            25%{
+                top: 418px;
+                left: 418px;
+               }
+            50%{
+                top: 418px;
+                left: 0;
+            }
+            75%{
+                top: 0;
+                left: 418px;
+            }
+            100%{
+                top: 0;
+                left: 0;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="ball"></div>
+    </div>
+    
+</body>
+</html>

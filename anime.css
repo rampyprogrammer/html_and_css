@@ -1,0 +1,35 @@
+div{
+    width: 150px ;
+    height: 150px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.one{
+    background-color: orange;
+    transform: translateX(50%);
+    /* transform: translatey(40px); */
+    /* transform: translate(100px); */
+    /* transform: scalex(0.6); */
+    
+}
+.two{
+    background-color: blue;
+    transform: translatex(50%);
+    /* transform: scaley(.5); */
+    /* transform: rotatex(92deg); */
+
+}
+.three{
+    background-color: blueviolet;
+    /* transform: skew(-25deg); */
+    transform: translatex(50%);
+
+    
+
+}
+.three:hover{
+    transition: all 5s ease-in-out
+}

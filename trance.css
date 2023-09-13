@@ -1,0 +1,23 @@
+div{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+
+}
+div:hover{
+    transform: scaley(.5);
+    background-color: blanchedalmond;
+}
+.one{
+    background-color: rgb(222, 26, 121);
+    transition: all 2s ease-in-out;
+}
+.two{
+    background-color: blueviolet;
+    transition: all 5s ease-in;
+}
+.three{
+    background-color: orangered;
+    border-radius: 50%;
+    transition: all 2s ease-in-out;
+}
